@@ -1,4 +1,4 @@
-@import "bootstrap-sprockets";
+
 @import "bootstrap";
 
 body {
@@ -8,7 +8,6 @@ body {
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
-  text-align: center;
 }
 
 a {
@@ -19,8 +18,35 @@ a {
     color: rgba(#000, 0.6);
   }
 }
-
+.logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo-img{
+  float: left;
+  width: 32px;
+  height: 32px;
+}
+.nav-logo{
+  padding: 0;
+  line-height: 50px;
+}
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
+}
+.nav-container{
+  text-align: center;
+  .nav-header {
+    position: relative;
+    .nav-logo{
+      z-index: -1;
+      display: block;
+      @media (max-width: $screen-sm) {
+        position: absolute;
+        width: 100%;
+        float: none;
+      }
+    }
+  }
 }
