@@ -256,8 +256,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../assets/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../assets/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../assets/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5796,6 +5796,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem; }
 
+.main {
+  min-height: 400px; }
+
+.intro {
+  margin-top: 40px; }
+
+.intro-caption {
+  min-height: 200px; }
+
 a {
   color: rgba(0, 0, 0, 0.7); }
   a:focus, a:hover {
@@ -5830,3 +5839,6 @@ a {
           position: absolute;
           width: 100%;
           float: none; } }
+
+.landing-img {
+  width: 100%; }
